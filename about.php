@@ -96,17 +96,17 @@
     <h2 class="mb-4">Meet Our Team</h2>
     <div class="row">
       <div class="col-md-4 team-member">
-        <img src="" class="img-fluid" alt="Team Member 1" width="150">
+        <img src="img/e1.jpg" class="img-fluid" alt="Team Member 1" width="150">
         <h5>John Doe</h5>
         <p>Project Manager</p>
       </div>
       <div class="col-md-4 team-member">
-        <img src="https://example.com/team-member2.jpg" class="img-fluid" alt="Team Member 2" width="150">
+        <img src="img/e2.jpg" class="img-fluid" alt="Team Member 2" width="150">
         <h5>Jane Smith</h5>
         <p>Architect</p>
       </div>
       <div class="col-md-4 team-member">
-        <img src="https://example.com/team-member3.jpg" class="img-fluid" alt="Team Member 3" width="150">
+        <img src="img/e3.jpg" class="img-fluid" alt="Team Member 3" width="150">
         <h5>Mark Taylor</h5>
         <p>Engineer</p>
       </div>
