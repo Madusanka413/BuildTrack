@@ -96,7 +96,7 @@
     <h2 class="mb-4">Meet Our Team</h2>
     <div class="row">
       <div class="col-md-4 team-member">
-        <img src="https://example.com/team-member1.jpg" class="img-fluid" alt="Team Member 1" width="150">
+        <img src="" class="img-fluid" alt="Team Member 1" width="150">
         <h5>John Doe</h5>
         <p>Project Manager</p>
       </div>
