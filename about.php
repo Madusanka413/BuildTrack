@@ -61,30 +61,30 @@
 <section class="mission-section">
   <div class="container text-center">
     <h2 class="mb-4">Our Mission</h2>
-    <p class="lead">At BuildSite, our mission is to deliver high-quality construction solutions tailored to your needs. With over a decade of experience, we specialize in innovative designs, efficient execution, and sustainability.</p>
+    <p class="lead">BuildTrack is a business that focuses on building, designing, and maintaining structures such as residential homes, commercial buildings, roads, bridges, and other infrastructure projects. Construction companies can vary in size and specialize in different types of construction projects depending on their expertise, resources, and market focus.</p>
   </div>
 </section>
 
 <section class="py-5">
   <div class="container text-center">
-    <h2 class="mb-4">What We Offer</h2>
+    <h2 class="mb-4">Our Services</h2>
     <div class="row">
       <div class="col-md-4">
         <div class="p-3 border rounded">
-          <h4>Residential Construction</h4>
-          <p>We build homes that are safe, functional, and beautiful.</p>
+          <h4>construction management</h4>
+          <p>Providing project management services to project managers</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="p-3 border rounded">
-          <h4>Commercial Projects</h4>
-          <p>Delivering high-quality commercial spaces for businesses.</p>
+          <h4>Managing your build</h4>
+          <p>Ability for customers to monitor their construction onlin</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="p-3 border rounded">
-          <h4>Renovations</h4>
-          <p>Transforming existing spaces into modern masterpieces.</p>
+          <h4>For Public Sector</h4>
+          <p>Monitoring of public projects and financial management of expansion</p>
         </div>
       </div>
     </div>
