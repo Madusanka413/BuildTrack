@@ -52,6 +52,7 @@
 
 <section class="hero-section">
   <div class="container">
+    <img src="img/logo.png" alt="Top Left Image" style="width: 250px;" >
     <h1 class="display-4">About BuildTrack</h1>
     <p class="lead">Your Trusted Partner for Building the Future</p>
   </div>
