@@ -18,7 +18,7 @@
 
         body {
             font-family: Arial, sans-serif;
-            background-image: url('background2.jpg'); 
+            background-image: url('img/background2.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -161,17 +161,17 @@
         <div class="projects">
             <div class="project">
                 <h3 style="font-weight:700;">Project 1</h3>
-                <img src="comlex.jpg" alt="Project 1" width="100%">
+                <img src="img/comlex.jpg" alt="Project 1" width="100%">
                 <p style="font-weight: 700;">A large commercial complex in the heart of the city, completed in 2023.</p>
             </div>
             <div class="project">
                 <h3 style="font-weight:700;">Project 2</h3>
-                <img src="luxery.jpg" alt="Project 2" width="100%">
+                <img src="img/luxery.jpg" alt="Project 2" width="100%">
                 <p style="font-weight: 700;">Luxury apartments with stunning architecture and modern design.</p>
             </div>
             <div class="project">
                 <h3 style="font-weight:700;">Project 3</h3>
-                <img src="historical.jpg" alt="Project 3" width="100%">
+                <img src="img/historical.jpg" alt="Project 3" width="100%">
                 <p style="font-weight: 700;">Renovation of a historical building, maintaining its charm while adding modern amenities.</p>
             </div>
         </div>
