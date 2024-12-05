@@ -5,9 +5,9 @@
     $mail = mysqli_real_escape_string($connection,$_POST['mail']);
     $fname = $_POST['fname'];
 
-    if($_POST['pwd']==$_POST['confpwd']){
+    if($_POST['pwd'] == $_POST['confpwd']){
       $pwd = password_hash($_POST['pwd'],PASSWORD_DEFAULT);
-      $sql1 = "INSERT INTO Users (full_name, email, password_hash) VALUES('{$fname}','{$mail}', {'$pwd'})";
+      $sql1 = "INSERT INTO Users (full_name, email, password_hash) VALUES('{$fname}','{$mail}', '{$pwd}')";
       $result = mysqli_query($connection,$sql1);
 
       if(isset($result)){
@@ -84,12 +84,12 @@
         </div>
         <div class="mb-3 text-start">
           <label for="confirmPassword" class="form-label">Confirm Password</label>
-          <input name="confpwd"type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
+          <input name="confpwd" type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
         </div>
         <button name="signup" type="submit" class="btn btn-primary w-100">Sign Up</button>
       </form>
       <div class="mt-3">
-        <p>Already have an account? <a href="#">Login</a></p>
+        <p>Already have an account? <a href="login.php">Login</a></p>
       </div>
     </div>
   </div>
