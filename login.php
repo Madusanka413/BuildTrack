@@ -63,7 +63,7 @@
         <a href="#">Forgot password?</a>
       </div>
       <div class="mt-3">
-        <p>Don't have an account? <a href="#">Sign Up</a></p>
+        <p>Don't have an account? <a href="signup.php">Sign Up</a></p>
       </div>
     </div>
   </div>
