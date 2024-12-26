@@ -1,3 +1,30 @@
+<?php
+    require_once 'connection/connection.php';
+
+    session_start();
+
+    if(isset($_POST['login'])){
+        $mail = mysqli_real_escape_string($connection,$_POST['mail']);
+        $pswd = mysqli_real_escape_string($connection,$_POST['pswd']);
+
+        $sql = "SELECT * FROM Users WHERE email='{$mail}'";
+        $result_set = mysqli_query($connection, $sql);
+
+        if($result_set && mysqli_num_rows($result_set) == 1){
+            $row = mysqli_fetch_assoc($result_set);
+            $hashedPassword = $row['password_hash'];
+
+            if(password_verify($pswd,$hashedPassword)){
+                $_SESSION['user_id'] = $row['id'];
+                $_SESSION['fname'] = $row['full_name'];
+                echo "<script>alert('Login success!');window.location.href='index.php';</script>";
+                // if this is incorrect there will be an error
+            }else {
+              echo "error";
+            }
+        }
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,16 +75,18 @@
     <div class="login-container text-center">
         <img src="img/logo.png" alt="Top Left Image" style="width: 250px;" >
       <h3 class="mb-4" style="font-weight: 700;">Login to BuildTrack</h3>
-      <form>
+      <form   action="login.php" method="POST">
         <div class="mb-3">
           <label for="email" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+          <input type="email" class="form-control" name="mail" id="email" placeholder="name@example.com">
         </div>
         <div class="mb-3">
           <label for="password" class="form-label">Password</label>
-          <input type="password" class="form-control" id="password" placeholder="Password">
+          <input type="password" class="form-control" id="password" name="pswd" placeholder="Password">
         </div>
-        <button type="submit" class="btn btn-primary w-100">Login</button>
+        <button name="login" type="submit" class="btn btn-primary w-100">Login</button>
+
+        <!--<button type="submit" class="btn btn-primary w-100">Login</button> -->
       </form>
       <div class="mt-3">
         <a href="#">Forgot password?</a>
