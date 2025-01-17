@@ -156,6 +156,7 @@
         </div>
     </section>
 
+    <a href="project.php" style="text-decoration:none">
     <section id="projects">
         <h2 class="text-center" style="font-weight:700;">Our Recent Projects</h2>
         <div class="projects">
@@ -176,6 +177,7 @@
             </div>
         </div>
     </section>
+    </a>
 
     
     <section id="contact">

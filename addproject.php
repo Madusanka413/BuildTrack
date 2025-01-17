@@ -1,11 +1,11 @@
 <?php
-// Include database connection
+
 require_once 'connection/connection.php';
 
-// Initialize variables
+
 $message = "";
 
-// Handle form submission
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $project_name = $_POST['project_name'];
     $project_code = $_POST['project_code'];
@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            background-image: url('img/background2.jpg'); /* Replace with your image path */
+            background-image: url('img/background2.jpg'); 
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -113,7 +113,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             <button type="submit">Add Project</button>
         </form>
-        <a href="projects.php">Back to Project List</a>
+        <a href="project.php">Back to Project List</a>
     </div>
 </body>
 </html>
