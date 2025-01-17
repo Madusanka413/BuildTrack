@@ -1,19 +1,4 @@
-<?php
-// Database configuration
-$host = "localhost"; // Database host
-$username = "root"; // Database username
-$password = ""; // Database password
-$dbname = "your_database_name"; // Database name
 
-// Connect to the database
-$conn = new mysqli($host, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-// Fetch project data
 $sql = "SELECT project_name, project_code, project_cost FROM projects";
 $result = $conn->query($sql);
 
