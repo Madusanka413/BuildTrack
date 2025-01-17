@@ -122,7 +122,7 @@
     <nav style="height: 200px;">
         <a style="margin-top: 40px;" href="about.php">About Us</a>
         <a style="margin-top: 40px;" href="#services">Services</a>
-        <a style="margin-top: 40px;" href="#projects">Projects</a>
+        <a style="margin-top: 40px;" href="project.php">Projects</a>
         <a style="margin-top: 40px;" href="#contact">Contact Us</a>
         <a style="margin-top: 40px;"href="login.php">LOGIN</a>
         <a style="margin-top: 40px;" href="signup.php">SIGNUP</a>
