@@ -129,7 +129,7 @@
     </nav>
 
     <div class="hero">
-        <h1 style="color: #333;">Building Your Vision, Creating Reality with BuildTrack</h1>
+        <h1 style="color: #333;">Building Your Vision,Creating Reality with BuildTrack</h1>
     </div>
     
 
