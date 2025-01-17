@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $message = "Error: " . $connection->error;
         }
     } else {
-        $message = "Please fill in all fields.";
+        $message = "fill in all fields.";
     }
 }
 ?>
